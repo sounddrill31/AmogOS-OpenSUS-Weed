@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<image schemaversion="7.4" name="kiwi-test-image-rpi">
+<image schemaversion="7.4" name="amogOS-openSUS-weed-rpi">
     <description type="system">
-        <author>Marcus Schäfer</author>
-        <contact>ms@suse.com</contact>
-        <specification>Disk image for RaspberryPi test build</specification>
+        <author>SoundDrill</author>
+        <contact>sounddrill31@gmail.com</contact>
+        <specification>"amogOS:openSUS weed" image for RaspberryPi build</specification>
     </description>
     <preferences>
         <version>1.15.0</version>
         <packagemanager>zypper</packagemanager>
         <bootsplash-theme>openSUSE</bootsplash-theme>
         <bootloader-theme>openSUSE</bootloader-theme>
-        <locale>en_US</locale>
+        <locale>en_IN</locale>
         <keytable>us</keytable>
-        <timezone>Europe/Berlin</timezone>
+        <timezone>Asia/Kolkata</timezone>
         <rpm-excludedocs>true</rpm-excludedocs>
         <type image="oem" filesystem="btrfs" fsmountoptions="noatime,compress=lzo" firmware="efi" kernelcmdline="plymouth.enable=0 swiotlb=512 cma=64M console=ttyS0" bootpartition="false" devicepersistency="by-label" btrfs_root_is_snapshot="true" efipartsize="16" editbootinstall="editbootinstall_rpi.sh">
             <bootloader name="grub2" console="serial"/>

@@ -2,10 +2,10 @@
 
 <image schemaversion="6.8" name="tumbleweed">
     <description type="system">
-        <author>Marcus Schaefer</author>
-        <contact>ms@suse.de</contact>
+        <author>SoundDrill</author>
+        <contact>sounddrill31@gmail.com</contact>
         <specification>
-            Tumbleweed Appliance, is a small text based image
+            "amogOS:openSUS weed"
         </specification>
     </description>
     <preferences>
@@ -17,9 +17,9 @@
         </type>
         <version>1.99.1</version>
         <packagemanager>zypper</packagemanager>
-        <locale>en_US</locale>
+        <locale>en_IN</locale>
         <keytable>us</keytable>
-        <timezone>Europe/Berlin</timezone>
+        <timezone>Asia/Kolkata</timezone>
         <rpm-excludedocs>true</rpm-excludedocs>
         <rpm-check-signatures>false</rpm-check-signatures>
         <bootsplash-theme>bgrt</bootsplash-theme>
